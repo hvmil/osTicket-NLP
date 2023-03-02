@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F6E1C3;
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 700px;
+    margin: 5px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.textDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+.keywordDiv{
+    display: flex;
+    flex-direction:column ;
+    margin: 15px;
+}
+button{
+    margin: 5px;
+}
+label{
+    align-self: center;
+}
+.btn-danger{
+    background-color: #E9A178;
+}
+.submit{
+    margin-top: 60px;
+    align-self: center;
+}
